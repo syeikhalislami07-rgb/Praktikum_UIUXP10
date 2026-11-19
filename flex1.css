@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 10px 20px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header li {
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+header li.logo {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+header li.logo img {
+    width: 60px;
+    height: auto;
+    display: block;
+}
+
+.konten {
+    padding: 20px;
+}
+
+.konten h2 {
+    margin-bottom: 10px;
+}
+
+.konten h4 {
+    margin-bottom: 10px;
+}
+
+.konten ul {
+    margin-left: 25px;
+}

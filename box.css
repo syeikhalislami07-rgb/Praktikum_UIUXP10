@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.box {
+    flex: 1;
+    height: 75vh;
+    border: 2px solid #333;
+}
+
+.kuning { background-color: #f4ea56; }
+.oranye { background-color: #ff3b30; }
+.hijau { background-color: #2e7d32; }
+.biru { background-color: #00bcd4; }
